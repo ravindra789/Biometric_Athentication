@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_logo"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_toRightOf="@+id/img_logo"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_3dp"
+            android:textColor="@color/gray"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view"
+        android:layout_marginLeft="@dimen/dimen_5dp"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:textColor="@color/light_black" />
+
+    <ImageView
+        android:id="@+id/img_fingerprint"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/item_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:padding="7dp"
+        app:srcCompat="@drawable/ic_fingerprint_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_fingerprint"
+        android:layout_marginTop="@dimen/dimen_18dp"
+        android:gravity="center"
+        android:textColor="@color/orange" />
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_status"
+        android:layout_marginTop="@dimen/dimen_22dp"
+        android:background="@null"
+        android:paddingTop="@dimen/dimen_22dp"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
