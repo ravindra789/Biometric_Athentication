@@ -1,4 +1,4 @@
-package com.example.biometricauthentication.bimetricManager;
+package com.example.biometricauthentication.biometricManager;
 
 /**
  * Created by RavindraP on 12,July,2019

@@ -1,4 +1,4 @@
-package com.example.biometricauthentication.bimetricManager;
+package com.example.biometricauthentication.biometricManager;
 
 import android.annotation.TargetApi;
 import android.content.Context;

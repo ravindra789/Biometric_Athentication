@@ -1,4 +1,4 @@
-package com.example.biometricauthentication.bimetricManager;
+package com.example.biometricauthentication.biometricManager;
 
 import android.app.DialogFragment;
 import android.content.Context;

@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.biometricauthentication.bimetricManager.BiometricCallback;
-import com.example.biometricauthentication.bimetricManager.BiometricManager;
+import com.example.biometricauthentication.biometricManager.BiometricCallback;
+import com.example.biometricauthentication.biometricManager.BiometricManager;
 
 public class MainActivity extends AppCompatActivity implements BiometricCallback {
 
